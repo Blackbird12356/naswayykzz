@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{	
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	background-image: url('D:/NasWaykz/img/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment:sfixed;
+	background-size: cover;
+	color: #fff;
+	height: 100%;
+}
+
+.text {
+	margin-top: -25px;
+	margin-left: 465px;
+}
+
+.home{
+	display: flex;
+	cursor: pointer;
+	color: #fff;
+	border: transparent;
+	background: transparent;
+	padding: 0.1rem;
+	font-size: 20px;
+  	margin-top: -20px;
+  	margin-left: 260px;
+  	padding-left: -260px;
+  letter-spacing: 0.03em;
+  transition: 0.5s;
+}
+
+.home:hover{
+	color: var(--clr);
+	letter-spacing: 0.09em;
+}
+
+.services{
+	display: flex;
+	cursor: pointer;
+	color: #fff;
+	border: transparent;
+	background: transparent;
+	font-size: 20px;
+	padding: 0.1rem;
+  	margin-top: -26px;
+  	margin-left: 350px;
+  	padding-left: -350px;
+  letter-spacing: 0.03em;
+  transition: 0.5s;
+}
+
+.services:hover{
+	color: var(--clr);
+	letter-spacing: 0.09em;
+}
+
+.pricing{
+	display: flex;
+	cursor: pointer;
+	color: #fff;
+	border: transparent;
+	background: transparent;
+	font-size: 20px;
+  	padding: 0.1rem;
+  	margin-top: -26px;
+  	margin-left: 460px;
+  	padding-left: -460px;
+  letter-spacing: 0.03em;
+  transition: 0.5s;
+}
+
+.pricing:hover{
+	color: var(--clr);
+	letter-spacing: 0.09em;
+}
+
+.contact{
+	display: flex;
+	cursor: pointer;
+	color: #fff;
+	border: transparent;
+	background: transparent;
+	font-size:20px;
+  	padding: 0.1rem;
+  	margin-top: -26px;
+  	margin-left: 560px;
+  	padding-left: -560px;
+  letter-spacing: 0.03em;
+  transition: 0.5s;
+}
+
+.contact:hover{
+	color: var(--clr);
+	letter-spacing: 0.09em;
+}
+
+.signup{
+	display: flex;
+	cursor: pointer;
+	color: #fff;
+	border: transparent;
+	background: transparent;
+	font-size:20px;
+	padding: 1rem;
+    margin-left: 1050px;
+  	margin-top: -30px;
+    padding-left: 20px;
+  letter-spacing: 0.03em;
+  transition: 0.5s;
+}
+
+.signup:hover{
+	color: var(--clr);
+	letter-spacing: 0.09em;
+}
+
+
+.login {
+  display: flex;
+  cursor: pointer;
+  color: #fff;
+  border-color: transparent;
+  background-color: #5de265;
+  font-size:20px;
+  padding: 1rem;
+  border-radius: 7rem;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 20px 4px;
+  width: 150px;
+  margin-left: 1200px;
+  margin-top: -60px;
+  padding-left: 40px;
+  letter-spacing: 0.03em;
+  transition: 0.5s;
+}
+
+.login:hover{
+	background: var(--clr);
+	letter-spacing: 0.09em;
+}
+
+.nasvay {
+  display: flex;
+  background-color: rgba(208, 208, 208, 0.6);
+  padding: 1.3rem;
+  border-radius: 1.4rem;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 20px 4px;
+  width: 300px;
+  margin-left: 90px;
+  padding-left: 25px;
+}
+
+.explore {
+	display: flex;
+	padding-left: 100px;
+	color: #fff;
+}
+
+.enjoy {
+	padding-left: 100px;
+	display: flex;
+	cursor: pointer;
+	color: #fff;
+  	border-color: transparent;
+    background-color: #5de265;
+    font-size: 30px;
+    padding: 1.1rem;
+    border-radius: 1.4rem;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 20px 4px;
+    width: 250px;
+    margin-left: 100px;
+    padding-left: 37px;
+    margin-top: 30px;
+  letter-spacing: 0.03em;
+  transition: 0.5s;
+}
+
+.enjoy:hover{
+	background: var(--clr);
+	letter-spacing: 0.05em;
+}
+
+.img {
+	display: flex;
+	width: 900px;
+	height: 600px;
+	margin-left: 970px;
+	margin-top: -320px;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 5rem;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 3px;
+	padding: 0.7rem;
+}
